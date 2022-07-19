@@ -235,7 +235,6 @@
       }
     }
   },
-  "defaultProject": "mfe1",
   "cli": {
     "packageManager": "yarn",
     "analytics": false
