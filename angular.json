@@ -105,19 +105,6 @@
             "coverage/projects/mfe1"
           ]
         },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/mfe1/tsconfig.app.json",
-              "projects/mfe1/tsconfig.spec.json",
-              "projects/mfe1/e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        },
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
@@ -232,19 +219,6 @@
           "outputs": [
             "coverage/projects/shell"
           ]
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/shell/tsconfig.app.json",
-              "projects/shell/tsconfig.spec.json",
-              "projects/shell/e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         },
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
