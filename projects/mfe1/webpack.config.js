@@ -15,5 +15,5 @@ module.exports = withModuleFederationPlugin({
         "@angular/router": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
         "@angular/material": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
   }),
-
+  sharedMappings: ['wallet-lib'],
 });
